@@ -14,6 +14,7 @@ import java.util.Map;
 public class CartRequest {
 
 
-    private String userId;
-    private Map<String, Integer> items=new HashMap<>();
+
+    private String foodId;
+
 }
