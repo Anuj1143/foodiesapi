@@ -24,3 +24,8 @@ aws:
   region: ap-south-1
   bucket-name: foodies12
 
+
+jwt:
+  secret:
+    key: q2NpY29sZSBzdGFja2V4Y2hhbmdlIGluGVybmF0aW9uYWxpemF0aW9uIHJvYm90cyBpbg==
+
