@@ -29,3 +29,6 @@ jwt:
   secret:
     key: q2NpY29sZSBzdGFja2V4Y2hhbmdlIGluGVybmF0aW9uYWxpemF0aW9uIHJvYm90cyBpbg==
 
+razorpay:
+  key: ${RAZORPAY_API_KEY}
+  secret: ${RAZORPAY_TEST_SECRET}
