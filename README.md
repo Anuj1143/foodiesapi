@@ -35,9 +35,10 @@ src/
 ├── controller/
 ├── service/
 ├── repository/
-├── model/
+├── entity/
 ├── config/
-└── exception/
+├── filter/
+└── io/
 ---
 
 ## 🔗 API Endpoints (Sample)
