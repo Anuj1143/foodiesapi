@@ -37,7 +37,7 @@ public class OrderServiceImpl implements OrderService{
       //create razor pay payment order
         RazorpayClient razorpayClient=new RazorpayClient(RAZORPAY_KEY, RAZORPAY_SECRET);
         JSONObject orderRequest=new JSONObject();
-        orderRequest.put("amount", newOrder.getAmount());
+        orderRequest.put("amount", newOrder.getAmount()*100);
         orderRequest.put("currency", "INR");
         orderRequest.put("payment_capture", 1);
        Order razorpayOrder= razorpayClient.orders.create(orderRequest);
